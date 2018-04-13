@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "StephaneDucasse 4/12/2018 14:36",
+	"super" : "Object",
+	"category" : "Ecstazen",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"writer",
+		"document"
+	],
+	"name" : "PRPillarObjectGenerator",
+	"type" : "normal"
+}
