@@ -1,0 +1,3 @@
+*Ecstazen
+visitPublications: aPRPublicationAnnotation 
+	self visitAnnotation: aPRPublicationAnnotation

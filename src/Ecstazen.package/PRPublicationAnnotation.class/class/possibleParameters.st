@@ -1,0 +1,3 @@
+accessing
+possibleParameters
+	^ #(author bibFile)

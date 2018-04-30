@@ -1,3 +1,3 @@
 private
 referenceString
-	^ 'publications:bibFile=rmod.bib'
+	^ 'publications:Ducasse|bibFile=rmod.bib'
