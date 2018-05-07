@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "Ecstazen-Old",
+	"super" : "PRObject",
+	"category" : "Ecstazen-Pillar",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"entries"
+		"czentry"
 	],
-	"name" : "PRPillarObjectGeneratorTest",
+	"name" : "PRBibItem",
 	"type" : "normal"
 }

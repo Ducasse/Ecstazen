@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "PRAbstractAnnotationTest",
-	"category" : "Ecstazen",
+	"super" : "CZVisitor",
+	"category" : "Ecstazen-Citezen",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PRPublicationAnnotationTest",
+	"name" : "CZPillarObjectGenerator",
 	"type" : "normal"
 }

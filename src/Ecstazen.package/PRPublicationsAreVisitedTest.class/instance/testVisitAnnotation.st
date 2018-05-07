@@ -5,7 +5,7 @@ testVisitAnnotation
 	self halt. 
 	item := PRDocument new
 		add:
-			(PRPublicationAnnotation new
+			(PRPublicationsAnnotation new
 				parameterAt: 'author' put: 'Ducasse';
 				parameterAt: 'bibFile' put: 'rmod.bib';
 				yourself);
