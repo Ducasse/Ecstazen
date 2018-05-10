@@ -10,9 +10,8 @@ testVisitAnnotation
 				parameterAt: 'bibFile' put: 'rmod.bib';
 				yourself);
 		yourself.
-	dictionary := Dictionary with: 'foo' -> 1.
 	self
 		assert:
-			(self actualInstance
+			(PRPublicationsTransformer new
 				start: item)
 		equals: dictionary

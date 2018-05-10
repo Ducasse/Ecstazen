@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "StephaneDucasse 5/6/2018 14:42",
-	"super" : "CZBodyDocBuilder",
+	"commentStamp" : "StephaneDucasse 5/9/2018 22:53",
+	"super" : "TestCase",
 	"category" : "Ecstazen-Citezen",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CZPillarObjectDocBuilder",
+	"name" : "CZPillarObjectDocBuilderTest",
 	"type" : "normal"
 }

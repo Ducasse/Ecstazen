@@ -1,4 +1,8 @@
 visiting
 createPublications: aPRPublicationAnnotation
 	
-	self halt
+	^ CZPillarObjectDocBuilder new 
+			new
+			fileNamed: 'rmod.bib';
+			authorMatchingString: '*Ducasse*';
+			generate

@@ -1,3 +1,3 @@
 hooks
 rootDocumentClass
-	^ PRDocumentGroup
+	^ PRUnorderedList

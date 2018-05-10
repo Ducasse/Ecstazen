@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "TestCase",
 	"category" : "Ecstazen-Old",
 	"classinstvars" : [ ],
 	"pools" : [ ],

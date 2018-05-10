@@ -1,0 +1,1 @@
+I build Pillar object model instead of plain text (HTML, latex...)
