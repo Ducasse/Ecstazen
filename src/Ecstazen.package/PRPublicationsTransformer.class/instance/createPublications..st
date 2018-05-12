@@ -3,6 +3,6 @@ createPublications: aPRPublicationAnnotation
 	
 	^ CZPillarObjectDocBuilder new 
 			new
-			fileNamed: 'rmod.bib';
-			authorMatchingString: '*Ducasse*';
-			generate
+			fileNamed: (aPRPublicationAnnotation bibFile);
+			authorMatchingString: '*', aPRPublicationAnnotation author, '*';
+			document

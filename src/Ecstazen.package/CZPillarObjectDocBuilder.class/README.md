@@ -5,8 +5,7 @@ Here are the customization points expressed as messages:
 	- keysOfBlackListedEntries: aCollection of bib keys
 	- english/french
 	- authorMatchingString: 'Ducasse'
-	
-	- doNotAllowEmptySections
+	- allowEmptySections / doNotAllowEmptySections (default)
 	- setFilteringOn (default) to debug setFileringOff
 	- bodySpecification: defaul is #(#PhDAndHabilitation #internationalJournal #nationalJournal #topConference #internationalConference  #nationalConference #invitedPaper #bookChapter #book #editor #internationalWorkshop #toolDemo #vulgarisation)
 	

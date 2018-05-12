@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PRPublicationsAnnotationProcessTest",
+	"name" : "PRPublicationsAnnotationTransformerTest",
 	"type" : "normal"
 }
