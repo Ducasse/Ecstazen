@@ -19,11 +19,8 @@ bibset
   labo 		= {dans},
   Publisher    = {Springer-Verlag},
   Series       = {LNBIP},
-  Volume       = 11,
-  Doi	       = {10.1007/978-3-540-69824-1_13},
   Url	       = {http://scg.unibe.ch/archive/papers/Denk08bMetaContextLNBIP.pdf},
-  Title	       = {The Meta in Meta-object Architectures},
-  hal          = {inria-00271286,p56w09p},
+  Title	       = {Blablabbbablla },
   Year	       = {2008}
 }
 
@@ -52,32 +49,41 @@ bibset
 }
 
 @article{Duca10a,
+Annote       = {internationaljournal},
 author = {St\''ephane Ducasse and Damien Pollet},
 title = {Fingerprints},
 journal = {Journal of Information System},
-year = 2010
+year = {2010}
 }
 
 @inproceedings{Abde08a,
+Annote       = {internationalconference},
 author = {Hani Abdeen and Ilham Alloui and St\''ephane Ducasse and Damien Pollet and Mathieu Suen},
 title = {Package Reference Fingerprint: a Rich and Compact Visualization to Understand Package Relationships},
 booktitle = {European Conference on Software Maintenance and Reengineering (CSMR)},
 pages = {213--222},
 publisher = {IEEE Computer Society Press},
-year = 2008,
+year = {2008},
 acceptnum = {24},
 accepttotal = {87}
 }
 
 
 @article{Duca10a,
+Annote       = {internationaljournal},
 author = {St\''ephane Ducasse and Damien Pollet},
 title = {Fingerprints},
 journal = {Journal of Information System},
   Url	       = {obsoleteData.pdf},
-year = 2010
+year = {2010}
 }
 
+@book{Duca11a,
+Annote       = {book},
+author = {St\''ephane Ducasse},
+title = {Whatever},
+year = {2011}
+}
 
 '
 )  

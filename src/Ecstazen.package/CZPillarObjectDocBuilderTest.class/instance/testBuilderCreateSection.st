@@ -6,6 +6,6 @@ testBuilderCreateSection
 					authorMatchingString: '*Ducasse*';
 					build.
 	
-	self assert: builder document children size equals: 13.
+	self assert: builder document children size equals: 3.
 	
 	
