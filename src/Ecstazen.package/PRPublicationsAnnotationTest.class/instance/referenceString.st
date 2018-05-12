@@ -1,3 +1,3 @@
 private
 referenceString
-	^ 'publications:Ducasse|bibFile=rmod.bib'
+	^ 'publications:Ducasse|bibFile=rmod.bib|language=french|blackListed=#(Foo)'
