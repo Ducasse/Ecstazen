@@ -12,5 +12,5 @@ baseline: spec
 		for: #pharo
 		do: [ 
 			spec
-				package: 'Ecstazeb' with: [ spec requires: #('Citezen' 'Pillar') ].
+				package: 'Ecstazen' with: [ spec requires: #('Citezen' 'Pillar') ].
 		 ]
