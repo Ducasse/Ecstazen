@@ -1,4 +1,4 @@
 accessing
 blackListed
 
-	^ self parameters at: #blackListed ifAbsent: [ #() ]
+	^ self parameters at: #blackListed ifAbsent: [ '#()' ]
