@@ -3,5 +3,4 @@ replace: newNodes
 	"When we do a transformation I replace the current node by his transformation."
 
 	replacement pop.
-	self halt.
-	replacement push: newNodes
+	replacement push: {PRSection new add: newNodes; yourself}.
