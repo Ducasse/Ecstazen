@@ -8,3 +8,11 @@ bib entry from mere item.
 
 So I should introduce 
 PRBibEntry. 
+
+
+| wiki doc |
+wiki := '!! Heading
+${publications:Ducasse|bibFile=rmod.bib}$'.
+doc := PRPillarParserMain parse: wiki. 
+PRPublicationsTransformer new start: doc. 
+self halt.
