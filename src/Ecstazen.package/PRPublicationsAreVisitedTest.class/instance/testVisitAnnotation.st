@@ -2,7 +2,6 @@ tests
 testVisitAnnotation
 
 	| item dictionary |
-	self halt. 
 	item := PRDocument new
 		add:
 			(PRPublicationsAnnotation new
