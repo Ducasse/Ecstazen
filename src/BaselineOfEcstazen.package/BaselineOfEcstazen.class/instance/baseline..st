@@ -6,7 +6,7 @@ baseline: spec
 		with: [ spec repository: 'github://Ducasse/Citezen/src' ].
 	spec
 		baseline: 'Pillar'
-		with: [ spec repository: 'github://pillar-markup/pillar/src:dev-7' ].
+		with: [ spec repository: 'github://pillar-markup/pillar:dev-7/src' ].
 	
 	spec
 		for: #pharo
