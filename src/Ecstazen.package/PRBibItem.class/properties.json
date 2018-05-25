@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "PRObject",
+	"super" : "PRListItem",
 	"category" : "Ecstazen-Pillar",
 	"classinstvars" : [ ],
 	"pools" : [ ],

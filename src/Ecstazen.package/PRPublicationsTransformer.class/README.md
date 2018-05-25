@@ -1,18 +1,17 @@
 Right now I replace 
 
 ${publications:....}$
-By a list of section and list of item.
-
-Now it may not be wise because during next step I will not be able to distinguish
-bib entry from mere item. 
-
-So I should introduce 
-PRBibEntry. 
+By document group composed of a list of sections themselves containing list of bibitems.
 
 
 | wiki doc |
-wiki := '!! Heading
-${publications:Ducasse|bibFile=rmod.bib}$'.
-doc := PRPillarParserMain parse: wiki. 
+wiki := '!! List of Publications
+	Here is my list of publications...
+	
+${publications:Ducasse|bibFile=rmod.bib}$
+
+If you are interested, do not hesitate to contact me'.
+doc := PRPillarParser parse: wiki. 
 PRPublicationsTransformer new start: doc. 
-self halt.
+doc.
+PRXHTMLWriter write: doc
