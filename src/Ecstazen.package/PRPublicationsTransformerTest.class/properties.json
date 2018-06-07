@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "PRNodeTransformerTest",
+	"category" : "Ecstazen-Pillar",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testingFileSystem"
+	],
+	"name" : "PRPublicationsTransformerTest",
+	"type" : "normal"
+}

@@ -2,7 +2,7 @@ tests
 testBuilderCreateSection
 	| builder |
 	builder := CZPillarObjectDocBuilder new 
-					bibset: self bibset;
+					bibset: self class bibset;
 					authorMatchingString: '*Ducasse*';
 					build.
 	

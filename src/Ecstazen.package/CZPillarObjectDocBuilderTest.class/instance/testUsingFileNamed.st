@@ -2,8 +2,8 @@ tests
 testUsingFileNamed
 	| builder |
 	builder := CZPillarObjectDocBuilder new
-					fileSystem: testingFileSystem;
-					fileNamed: 'rmod.bib';
+					workingDirectory: testingFileSystem;
+					fileNamed: self class bibFileNameForTest;
 					authorMatchingString: '*Ducasse*';
 					bodySpecification: #( #internationalConference #internationalJournal #topConference);
 					build.

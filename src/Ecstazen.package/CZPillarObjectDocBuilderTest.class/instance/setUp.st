@@ -2,7 +2,7 @@ tests
 setUp
 
 	super setUp.
-	testingFileSystem := FileSystem memory.
-	(testingFileSystem workingDirectory / self bibFileNameForTest)
+	testingFileSystem := FileSystem memory workingDirectory.
+	(testingFileSystem / self class bibFileNameForTest)
 		writeStreamDo: [ :stream | 
-			stream nextPutAll: self bibContentsForTest ]
+			stream nextPutAll: self class bibContentsForTest ]

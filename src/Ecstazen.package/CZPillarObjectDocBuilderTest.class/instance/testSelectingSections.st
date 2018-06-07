@@ -2,7 +2,7 @@ tests
 testSelectingSections
 	| builder |
 	builder := CZPillarObjectDocBuilder new 
-					bibset: self bibset;
+					bibset: self class bibset;
 					authorMatchingString: '*Ducasse*';
 					bodySpecification: #( #internationalConference #internationalJournal #topConference);
 					build.

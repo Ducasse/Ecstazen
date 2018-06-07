@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "Ecstazen-Old",
+	"super" : "Object",
+	"category" : "Ecstazen-Pillar",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "PRPublicationsAreVisitedTest",
+	"name" : "PRTestProject",
 	"type" : "normal"
 }
