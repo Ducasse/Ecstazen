@@ -6,4 +6,4 @@ testParsedHadAllKeys
 	self assert: annotation language equals: 'french'.
 	self assert: annotation bibFile equals: 'rmod.bib'.
 	self assert: annotation author equals: 'Ducasse'.
-	self assert: annotation blackListed equals: '#(Foo)'.
+	self assert: annotation blackListed equals: #(#Foo).

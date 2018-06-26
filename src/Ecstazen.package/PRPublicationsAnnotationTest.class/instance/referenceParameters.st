@@ -5,6 +5,6 @@ referenceParameters
 		add: 'author' -> 'Ducasse';
 		add: 'bibFile' -> 'rmod.bib';
 		add: 'language' -> 'french';
-		add: 'blackListed' -> '#(Foo)';
-		add: 'sections' -> '#(internationalConference)';
+		add: 'blackListed' -> #(Foo);
+		add: 'sections' -> #(internationalConference);
 		yourself
