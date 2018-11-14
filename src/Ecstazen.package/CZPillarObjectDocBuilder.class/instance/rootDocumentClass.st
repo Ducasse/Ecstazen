@@ -1,3 +1,0 @@
-hooks
-rootDocumentClass
-	^ PRDocumentGroup

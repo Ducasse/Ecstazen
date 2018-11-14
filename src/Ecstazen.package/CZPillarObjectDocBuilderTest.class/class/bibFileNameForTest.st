@@ -1,3 +1,0 @@
-tests
-bibFileNameForTest
-	^ 'rmod.bib'
