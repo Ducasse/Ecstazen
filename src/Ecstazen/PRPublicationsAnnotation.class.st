@@ -1,14 +1,26 @@
 "
-I represent an annotation 
+I represent an annotation for a list of publications. 
 
-	${publications|author='Ducasse'}$
+	${publications|author=Ducasse|bibFile=rmod.bib}$
 	
 I will be expanded into a list of sections sorted publications.
+
+Here are the possible parameters:
+	author mandatory
+	bibFile the name of the file containing the bib
+	blackListed a collection of the keys that should ignored.
+	language the language
+	sections by default #(#internationalJournal #topConference #nationalJournal #internationalConference #nationalConference #invitedPaper #bookChapter #book #editor #internationalWorkshop #PhDAndHabilitation #toolDemo #vulgarisation)
+	
+Implementation notes
+
+I use the specific pillar object doc builder extension (CZPillarObjectDocBuilder) for Citezen
+
 "
 Class {
 	#name : #PRPublicationsAnnotation,
 	#superclass : #PRAbstractAnnotation,
-	#category : 'Ecstazen-Pillar'
+	#category : #'Ecstazen-Pillar'
 }
 
 { #category : #visiting }
