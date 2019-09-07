@@ -49,6 +49,13 @@ PRPublicationsTransformer >> createPublications: aPRPublicationAnnotation [
 			document
 ]
 
+{ #category : #visiting }
+PRPublicationsTransformer >> errorMessageAsDocumentEntities: aString [
+
+	^ PRParagraph with: (PRText content: aString)
+	
+]
+
 { #category : #initialization }
 PRPublicationsTransformer >> initialize [
 
@@ -59,7 +66,11 @@ PRPublicationsTransformer >> initialize [
 { #category : #visiting }
 PRPublicationsTransformer >> visitPublicationsAnnotation: aPRPublicationAnnotation [
 	
-	self replace: {(self createPublications: aPRPublicationAnnotation)}
+	| entity |
+	entity := [ (self createPublications: aPRPublicationAnnotation) ]
+		on: FileDoesNotExistException  
+		do: [ :ex | self errorMessageAsDocumentEntities: 'Pillar does not find the file: ', ex fileName asString, '. Check your bibFile= specification. The file publications.bib is the one lookup by default by Ecstazen.' ].
+	self replace: { entity }
 	
 ]
 
