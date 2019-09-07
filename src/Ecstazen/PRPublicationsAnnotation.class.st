@@ -71,7 +71,7 @@ PRPublicationsAnnotation >> author [
 { #category : #accessing }
 PRPublicationsAnnotation >> bibFile [
 
-	^ self parameters at: #bibFile ifAbsent: [ 'publication.bib' ]
+	^ self parameters at: #bibFile ifAbsent: [ 'publications.bib' ]
 ]
 
 { #category : #accessing }
